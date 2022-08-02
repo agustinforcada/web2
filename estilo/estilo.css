@@ -1,0 +1,73 @@
+
+
+   
+/*SECCION HERO */
+
+
+
+.centro{
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  position:absolute;
+   
+} 
+
+ 
+
+.text-justify {
+  text-align: justify!important;
+}
+
+
+  .hero-image {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.89);
+    opacity: 10;
+
+
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.712)), url('../img/fondo.jpg');
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+.formulario{
+max-width: 60rem!important;
+margin-top: 100px!important;
+}
+
+
+
+
+.map-responsive{
+
+  overflow:hidden;
+
+  padding-bottom:56.25%;
+
+  position:relative;
+
+  height:0;
+
+}
+
+.map-responsive iframe{
+
+  left:0;
+
+  top:0;
+
+  height:100%;
+
+  width:100%;
+
+  position:absolute;
+
+}
